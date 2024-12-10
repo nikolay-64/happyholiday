@@ -1,0 +1,51 @@
+.button {
+	border: none;
+	border-radius: 30px;
+	width: 300px;
+	height: 65px;
+
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #00c78b;
+	color: #fff;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.list {
+	position: absolute;
+	top: 68px;
+	left: 0;
+	width: 300px;
+	padding: 20px 52px;
+
+	border-radius: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #00c78b;
+	color: #fff;
+}
+
+.item {
+	cursor: pointer;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+
+.item:not(:last-child) {
+	margin-bottom: 0px;
+}
+
+.linkActive {
+	color: #f81631bf;
+}
+
+@media (max-width: 1024px) {
+	.button {
+		width: 220px;
+		height: 45px;
+		font-size: 14px;
+	}
+}
